@@ -11,7 +11,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [site](https://marcel0711.github.io/article_preview/)
+- Live Site URL: [site](https://marcel7110.github.io/article_preview/)
 
 ### Built with
 
