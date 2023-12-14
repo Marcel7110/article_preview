@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Article preview</title>
+</head>
+<body>
+    <main>
+        <div class="img-container"></div>
+        <div class="box">
+            <article>
+                <h1>Shift the overall look and feel by adding these wonderful touches to furniture in your home</h1>
+                <p>Ever been in a room and felt like something was missing? Perhaps it felt slightly bare and uninviting. I've got some simple tips to help you make any room feel complete.</p>
+            </article>
+            <div class="info-box">
+                <img class="avatar" src="./images/avatar-michelle.jpg" alt="avatar"/>
+                <div class="user-info">
+                    <h3>Michelle Appleton</h3>
+                    <p>28 Jun 2020</p>
+                </div>
+                <button onclick="showDetails()">
+                    <img src="./images/icon-share.svg" alt=""/>
+                </button>
+                <div class="info-box-active" id="info_box_active">
+                    <h2>SHARE</h2>
+                    <div>
+                        <img src="./images/icon-facebook.svg" alt="facebook"/>
+                        <img src="./images/icon-twitter.svg" alt="twitter"/>
+                        <img src="./images/icon-pinterest.svg" alt="pinterest"/>
+                    </div>
+                    <button onclick="showDetails()">
+                        <img src="./images/icon-share.svg" alt=""/>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>    
+</body>
+</html>
+
+<script>
+    function showDetails(){ 
+        const div = document.getElementById('info_box_active')
+        div.classList.toggle('info-box-visible')
+    }
+</script>
